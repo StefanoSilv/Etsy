@@ -1,3 +1,7 @@
+body{
+	background-color: rgb(232, 229, 200)
+}
+
 .header-flex{
 	display: flex;
 	justify-content: space-around;
@@ -5,7 +9,14 @@
 
 .sub-header-flex{
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+}
+
+.sub-header{
+	margin:0;
+	padding: 0;
+	width: 33%;
+	text-align: center;
 }
 
 .main_title{
