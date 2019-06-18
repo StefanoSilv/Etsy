@@ -1,0 +1,15 @@
+.header-flex{
+	display: flex;
+	justify-content: space-around;
+}
+
+.sub-header-flex{
+	display: flex;
+	justify-content: space-around;
+}
+
+.main_title{
+	font-size: 35px;
+	text-align: center; 
+
+}
