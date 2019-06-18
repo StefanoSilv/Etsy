@@ -32,3 +32,9 @@ width: 90%;
 	display: flex;
 	justify-content: space-around;
 }
+
+.sub-popular, .author-popular{
+	width:96%;
+	text-align: center;
+
+}
