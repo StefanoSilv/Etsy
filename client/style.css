@@ -17,4 +17,9 @@
 .pictures-flex{
 	display: flex;
 	justify-content: space-between;
+	width: 100%;
+}
+
+.pictures{
+	width: 15%;
 }
