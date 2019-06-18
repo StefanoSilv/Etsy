@@ -1,0 +1,19 @@
+{
+  "name": "esercizio-marketshop",
+  "version": "1.0.0",
+  "description": "Project of the 18th of June",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "css",
+    "html",
+    "server"
+  ],
+  "author": "Stefano Silvestrini",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
