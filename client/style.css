@@ -1,5 +1,14 @@
 body{
-	background-color: rgb(232, 229, 200)
+	background-color: rgb(232, 229, 200);
+	font-family: Roboto, sans-serif;
+}
+
+h1{
+	font-size: 700;
+}
+
+.sub-header p{
+	margin: 0;
 }
 
 .header-flex{
@@ -13,6 +22,7 @@ body{
 }
 
 .sub-header{
+	vertical-align: top;
 	margin:0;
 	padding: 0;
 	width: 33%;
@@ -29,6 +39,17 @@ body{
 	display: flex;
 	justify-content: space-around;
 	width: 100%;
+}
+.price{
+	border: 1px dotted black;
+	border-radius: 10px;
+	background-color: white;
+	color: red;
+	padding: 0;
+}
+
+.price div{
+	line-height: 5px;
 }
 
 .pictures img{
