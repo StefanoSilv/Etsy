@@ -1,0 +1,61 @@
+body{
+	font-family: Roboto, sans-serif;
+}
+h1{
+	margin-bottom: 150px;
+}
+ul{
+	color: rgb(201, 197, 207);
+	list-style: none;
+	font-size: 20px;
+	line-height: 50px;
+	font-weight: 100;
+}
+.sidebar{
+	margin-top: 8px;
+	font-weight: 100;
+}
+.accessories{
+	line-height: 0px;
+	padding-bottom:33px;
+}
+.sidebar-mini{
+	padding:20px;
+}
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+}
+.shoes-grid{
+	margin-right: 10px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-auto-rows: 1fr 1fr;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+}
+.shoes{
+	background: url('shoes.png');
+	background-size: cover;
+	background-position: center;
+	/* padding-top: 20%;
+	padding-bottom: 20%; */
+}
+
+.price{
+	display: inline-block;
+	padding-top:100%;
+}
+
+.brand{
+	display: inline-block;
+}
+
+h4.brand, h4.series, h4.price, h4.button{
+	margin:0;
+}
+
+h4.price{
+
+}
