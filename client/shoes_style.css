@@ -38,8 +38,8 @@ ul{
 }
 
 .shoes{
-	background: url('shoes.png');
-	background-size: 100%; /* Not reactive */
+	background-image:url('shoes.png');
+	background-size: contain; /* Not reactive */
 	background-position: center;
 	position: relative;
 	border-radius: 2%;
