@@ -45,14 +45,24 @@ ul{
 
 .button, .series{
 	color: rgb(219, 219, 219);
+	font-size: 300;
+}
+
+.button{
+	border: 2px solid rgb(219, 219, 219);
+	border-radius: 20%;
 }
 
 .price-cont, .brand-cont,{
 	display: inline-block;
 }
 
-.brand-cont, .price-cont{
+.brand-cont{
 	padding-top: 100%;
+}
+
+.price-cont{
+	padding-top: 98%;
 }
 
 .brand-cont{
