@@ -7,8 +7,8 @@ h1{
 ul{
 	color: rgb(201, 197, 207);
 	list-style: none;
-	font-size: 20px;
-	line-height: 50px;
+	font-size: 20px; /* Not reactive */
+	line-height: 50px; /* Not reactive */
 	font-weight: 100;
 }
 .sidebar{
@@ -17,7 +17,7 @@ ul{
 }
 .accessories{
 	line-height: 0px;
-	padding-bottom:33px;
+	padding-bottom:33px; /* Not reactive */
 }
 .sidebar-mini{
 	padding:15%;
@@ -36,9 +36,10 @@ ul{
 	grid-row-gap: 5%;
 	margin-bottom: 7%;
 }
+
 .shoes{
 	background: url('shoes.png');
-	background-size: 100%;
+	background-size: 100%; /* Not reactive */
 	background-position: center;
 	position: relative;
 	border-radius: 2%;
@@ -51,12 +52,12 @@ ul{
 
 .price{
 	font-weight: 300;
-	font-size: 20px;
+	font-size: 20px; /* Not reactive */
 }
 
 .button{
 	border: 2px solid rgb(219, 219, 219);
-	border-radius: 20%;
+	border-radius: 30%;
 }
 
 .price-cont, .brand-cont,{
@@ -84,7 +85,7 @@ h4.brand, h4.series, h4.price, h4.button{
 	border:1px solid rgb(224, 224, 224);
 	color: rgb(224, 224, 224);
 	border-radius: 50%;
-	font-size: 20px;
+	font-size: 20px; /* Not reactive */
 	margin-top: 5%;
 	display: inline-block;
 	position: absolute;
