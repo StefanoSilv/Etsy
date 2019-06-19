@@ -13,7 +13,7 @@ ul{
 }
 .sidebar{
 	margin-top: 8px;
-	font-weight: 100;
+	font-weight: 300;
 }
 .accessories{
 	line-height: 0px;
@@ -39,13 +39,16 @@ ul{
 	background: url('shoes.png');
 	background-size: cover;
 	background-position: center;
-	/* padding-top: 20%;
-	padding-bottom: 20%; */
 }
 
 .button, .series{
 	color: rgb(219, 219, 219);
-	font-size: 300;
+	font-weight:100;
+}
+
+.price{
+	font-weight: 300;
+	font-size: 20px;	
 }
 
 .button{
@@ -59,23 +62,14 @@ ul{
 
 .brand-cont{
 	padding-top: 100%;
+	float: left;
 }
 
 .price-cont{
 	padding-top: 98%;
-}
-
-.brand-cont{
-	float: left;
-}
-.price-cont{
 	float: right;
 }
 
 h4.brand, h4.series, h4.price, h4.button{
 	margin:0;
-}
-
-h4.price{
-padding-bottom: ;
 }
