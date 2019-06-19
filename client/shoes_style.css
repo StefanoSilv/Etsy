@@ -43,13 +43,23 @@ ul{
 	padding-bottom: 20%; */
 }
 
-.price{
-	display: inline-block;
-	padding-top:100%;
+.button, .series{
+	color: rgb(219, 219, 219);
 }
 
-.brand{
+.price-cont, .brand-cont,{
 	display: inline-block;
+}
+
+.brand-cont, .price-cont{
+	padding-top: 100%;
+}
+
+.brand-cont{
+	float: left;
+}
+.price-cont{
+	float: right;
 }
 
 h4.brand, h4.series, h4.price, h4.button{
@@ -57,5 +67,5 @@ h4.brand, h4.series, h4.price, h4.button{
 }
 
 h4.price{
-
+padding-bottom: ;
 }
